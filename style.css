@@ -1,0 +1,8 @@
+*{
+    animation: flash infinite 10ms;
+}
+@keyframes flash {
+    0%{background: black;}
+    50%{background: white;}
+    100%{background: black;}
+}
